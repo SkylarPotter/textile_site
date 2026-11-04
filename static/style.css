@@ -1,0 +1,57 @@
+/* ---- Theme colors: change these to restyle the whole site ---- */
+body.theme-textile {
+  --page-bg: #f6efe0;
+  --panel-bg: #fbf6ea;
+  --ink: #3a2a1a;
+  --muted: #6a5a4a;
+  --accent: #a0463a;
+  --border: #b89f7a;
+  --font: Georgia, "Times New Roman", serif;
+}
+body.theme-tech {
+  --page-bg: #d9d4c5;
+  --panel-bg: #ece8dc;
+  --ink: #2b2b2b;
+  --muted: #5a5a5a;
+  --accent: #2b3a4a;
+  --border: #8a8576;
+  --font: "Courier New", Courier, monospace;
+}
+
+/* ---- Layout basics ---- */
+body { background: var(--page-bg); color: var(--ink); font-family: var(--font); }
+.site-wrap { max-width: 1000px; }
+.panel {
+  background: var(--panel-bg);
+  border: 2px solid var(--border);
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+}
+.panel-title {
+  font-size: 1rem;
+  color: var(--accent);
+  border-bottom: 1px dashed var(--border);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.75rem;
+}
+.site-title { font-size: 2rem; letter-spacing: 1px; color: var(--ink); }
+.tagline { color: var(--muted); font-style: italic; }
+.booking-frame { width: 100%; height: 520px; border: 1px solid var(--border); background: #fff; }
+.post-body img { max-width: 100%; height: auto; }
+.site-footer { color: var(--muted); }
+
+/* ---- Textile: embroidery banner, centered ---- */
+.stitch-banner {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: 28px;
+  margin: 0 auto 0.5rem;
+}
+
+/* ---- Tech: console strip with LEDs ---- */
+.console-strip { display: flex; justify-content: center; gap: 8px; margin-bottom: 0.5rem; }
+.led { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.led.on { background: #3a9a3a; }
+.led.warn { background: #d9a020; }
+.led.off { background: #c03030; }

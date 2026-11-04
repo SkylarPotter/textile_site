@@ -1,0 +1,18 @@
+{
+  "theme": "textile",
+  "decoration": "embroidery",
+  "business_name": "Irondequoit Textile Studio",
+  "tagline": "Textile services, commissions, and guidance.",
+  "url": "https://skylarpotter.github.io/textile-site/",
+  "location": "Irondequoit, NY",
+  "contact_email": "skylarmariepotter@gmail.com",
+  "meta_description": "Explore original textile art, professional mending and sewing commissions, and personalized textile instruction. Offering knitting lessons, tutoring, and creative guidance to help you make, mend, and create with textiles.",
+  "keywords": "Textile art, fiber arts, handmade textiles, textile artist, textile design, creative sewing, sewing commissions, custom sewing, clothing mending, visible mending, garment repair, textile restoration, knitting lessons, knitting classes, knitting instruction, knitting tutor, fiber arts instruction, sewing lessons, textile workshops, handcraft tutoring, needlework, traditional crafts, creative textiles, handmade art",
+  "bio": "let me talk to you about string",
+  "booking_embed_url": "https://calendar.app.google/QRPuq48E1NarMvy46",
+  "services": [
+    {"name": "Introduction tohandspinning on a treadle wheel", "description": "Sit down at a treadle wheel and learn the basics of handspinning. This is a great way to get started with fiber arts and create your own yarn."},
+    {"name": "Knitting lessons", "description": "Learn how to knit or improve your knitting skills with personalized instruction. Suitable for beginners and experienced knitters alike."},
+    {"name": "Custom visible mending", "description": "Bring an item in for mending and learn how to repair it in a way that is both functional and aesthetically pleasing. This service includes guidance on techniques and materials."}
+  ]
+}

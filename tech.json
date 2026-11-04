@@ -1,0 +1,18 @@
+{
+  "theme": "tech",
+  "decoration": "console",
+  "business_name": "PLACEHOLDER Design Co.",
+  "tagline": "PLACEHOLDER small business and design services",
+  "url": "https://YOUR-USERNAME.github.io/tech-site/",
+  "location": "PLACEHOLDER City, State",
+  "contact_email": "placeholder@example.com",
+  "meta_description": "PLACEHOLDER one sentence describing your design services for search results.",
+  "keywords": "PLACEHOLDER, web design, small business, branding",
+  "bio": "PLACEHOLDER two or three sentences about you and your work.",
+  "booking_embed_url": "PASTE_GOOGLE_CALENDAR_BOOKING_PAGE_URL_HERE",
+  "services": [
+    {"name": "PLACEHOLDER service 1", "description": "PLACEHOLDER short description."},
+    {"name": "PLACEHOLDER service 2", "description": "PLACEHOLDER short description."},
+    {"name": "PLACEHOLDER service 3", "description": "PLACEHOLDER short description."}
+  ]
+}

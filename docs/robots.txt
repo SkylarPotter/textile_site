@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://skylarpotter.github.io/textile-site/sitemap.xml
